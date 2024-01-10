@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header,.footer {
+    background-color:#1F2937;
+}
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+h1 {
+    color: #e5e7eb;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.hero-content h2 {
+    font-weight: bold;
+    font-size:48px;
+    color: #f9faf8;
+    padding: 5px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 30px;
+    gap: 20px;
+
+}
+.hero-img img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10%;
+}
+.sign-up {
+    padding: 5px;
+    border:3px #3882f6 solid;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    height: 40px;
+}
+.sign-up:hover {
+    background-color: #d9dde4;
+    color: #1F2937;
+    border:3px #d9dde4 solid;
+    transition-duration: 0.5s;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    align-items: center;
+    padding: 10px;
+    font-size:12px;
+}
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    margin:10px 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: #3882f6;
+    border-radius: 5%;
+}
+.box:hover {
+    background-color: #02f15e;
+    transition-duration: 1.5s;
+}
+.info-container {
+    padding: 20px 10px;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.herotext {
+    font-size:18px;
+    color: #e5e7eb;
+    width: 500px;
+}
+.item {
+    margin: auto;
+    text-align: center;
+}
+.item-text {
+    width: 250px;
+}
+.quote {
+    padding: 50px 30%;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:400;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 90px 25%;
+    height: 100px;
+    color: #f9faf8;
+}
+.sign-up-bottom button{
+    border: #d9dde4 2px solid;
+    color: #f9faf8;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+}
+.sign-up-bottom button:hover{
+    background-color: #d9dde4;
+    color: #1F2937;
+    border:3px #d9dde4 solid;
+    transition-duration: 0.5s;
+}
+.text p,b {
+    margin: 0;
+    padding: 0;
+}
